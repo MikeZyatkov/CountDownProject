@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CountDownProject</string>
+
+    <string name="bottom_bar_before_event">Before Event</string>
+    <string name="bottom_bar_after_event">After Event</string>
+    <string name="bottom_bar_all_events">All Events</string>
+
+    <string name="fragment_event_edit_et_title">Title</string>
+
+    <string name="fragment_after_event_title">After Event</string>
+
+    <string name="fragment_before_event_title">Before Event</string>
+
+    <string name="fragment_all_events_title">All Events</string>
+
+    <string name="et_hint_event_title">Enter event title</string>
+
+    <string name="activity_add_event_et_description">Enter event description</string>
+    <string name="activity_add_event_toolbar_menu_action_save">Save</string>
+    <string name="activity_add_event_alert_dialog_camera">Take photo</string>
+    <string name="activity_add_event_alert_dialog_gallery">Choose from gallery</string>
+    <string name="activity_add_event_alert_dialog_cancel">Cancel</string>
+    <string name="activity_add_event_alert_dialog_title">Add image</string>
+    <string name="activity_add_event_alert_dialog_chooser">Select file</string>
+
+    <string name="utility_check_permission_aler_dialog_title">Permission necessary</string>
+    <string name="utility_check_permission_aler_dialog_message">External storage permission is necessary</string>
+    <string name="utility_check_permission_aler_dialog_positive">Yes</string>
+
+    <string name="item_event_iv_content_description">Event icon</string>
+    <string name="item_event_tv_gone">gone</string>
+    <string name="item_event_tv_left">left</string>
+</resources>

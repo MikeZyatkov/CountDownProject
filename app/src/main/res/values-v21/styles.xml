@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:datePickerDialogTheme">@style/DatePickerTheme</item>
+        <item name="android:timePickerDialogTheme">@style/TimePickerTheme</item>
+    </style>
+
+    <style name="DatePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:datePickerStyle">@style/DatePickerStyle</item>
+    </style>
+
+    <style name="DatePickerStyle">
+        <item name="android:headerBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:timePickerStyle">@style/TimePickerStyle</item>
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+    <style name="TimePickerStyle">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="textColorAlertDialogListItem">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+    </style>
+</resources>
